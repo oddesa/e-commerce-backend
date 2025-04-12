@@ -64,18 +64,6 @@ e-commerce-backend/
 - **Review System**: Product reviews and ratings
 - **API Documentation**: Swagger UI
 
-## Getting Started
-1. Clone this project
-2. Install dependencies with npm install
-3. Start the database with npm run docker:up
-4. Run migrations with npm run prisma:migrate
-5. Seed the database with npm run prisma:seed
-6. Start the development server with npm run start:dev
-7. Access the Swagger documentation at http://localhost:3000/docs
-
-The architecture we've set up is scalable and follows best practices with a clean modular approach. Each module is self-contained with its own controllers, services, and DTOs while leveraging the global Prisma service for database 
-operations.
-
 ### Prerequisites
 
 - Node.js (v16+)
